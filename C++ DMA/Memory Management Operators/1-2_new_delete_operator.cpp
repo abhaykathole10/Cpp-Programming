@@ -13,5 +13,7 @@ int main(){
     cout  << "Value of ptr2 is: "<< ptr2 << endl;
     cout  << "Value of *(ptr2) is: "<< *(ptr2) << endl;
 
+    delete ptr2;
+
     return 0;
 }
