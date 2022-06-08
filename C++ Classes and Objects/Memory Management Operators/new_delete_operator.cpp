@@ -18,3 +18,7 @@ int main(){
 
     return 0;
 }
+/*
+1. "new" automatically computes the size of data object, so no need have to use sizeof function
+    like in malloc.
+2. "new" automatically returns correct pointer type, so no need to typecast.

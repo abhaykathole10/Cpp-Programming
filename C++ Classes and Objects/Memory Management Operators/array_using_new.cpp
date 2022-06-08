@@ -1,4 +1,5 @@
 #include <iostream>
+#include <conio.h>
 using namespace std;
 
 int main(){
@@ -20,5 +21,5 @@ int main(){
     //releasing the memory for future use
     delete []p;
 
-    return 0;
+    getch();
 }
