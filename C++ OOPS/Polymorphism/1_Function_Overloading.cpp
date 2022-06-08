@@ -20,8 +20,8 @@ int main(){
     shape t;
 
     //Calling same function "area" but with different arguments list
-    cout << "\nArea of Square: " << t.area(5);
-    cout << "\nArea of Rectangle: "<< t.area(2, 3);
+    cout << "Area of Square: " << t.area(5);
+    cout << "\nArea of Rectangle: "<< t.area(4, 5);
 
     return 0;
 }
