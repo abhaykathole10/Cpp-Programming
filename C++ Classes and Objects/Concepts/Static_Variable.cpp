@@ -12,6 +12,7 @@ class myClass{
         count++;
     }
 };
+
 //Type and Scope of Static variables need to declared outside class
 int myClass :: count;
 
