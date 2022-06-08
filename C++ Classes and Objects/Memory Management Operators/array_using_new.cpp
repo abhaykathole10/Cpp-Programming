@@ -17,6 +17,7 @@ int main(){
         cout << endl << i << " " << (p+i) << "-> " << *(p+i);
     }
 
+    //releasing the memory for future use
     delete []p;
 
     return 0;
