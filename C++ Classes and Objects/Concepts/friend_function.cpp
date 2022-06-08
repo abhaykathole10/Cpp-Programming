@@ -11,16 +11,29 @@ class student{
         cout << "Enter name: ";
         cin >> name;
     }
+    //friend function declaration
     friend void display(student);
 };
+
+//friend function definition
+//It takes object as a parameter
+//Friend function has access to all the private members
 void display(student x){
-        cout << x.roll << " is " << x.name;
+        cout << "\n" << x.roll << " is " << x.name;
     }
+
 int main(){
     student a, b, c;
 
+    //Calling a member function
     a.getData();
+    b.getData();
+    c.getData();
+
+    //Passing object as an argument to the friend function
     display(a);
+    display(b);
+    display(c);
 
     return 0;
 }
