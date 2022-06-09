@@ -3,14 +3,14 @@ using namespace std;
 
 class MyClass{
     public:
-    int a = 10 , b = 20;
+        int a = 10 , b = 20;
 
-    void FuncOne(){
-        cout << "Value of a is: " << a << endl;
-    }
-    void FuncTwo(){
-        cout << "Value of b is: " << b << endl;
-    }
+        void FuncOne(){
+            cout << "Value of a is: " << a << endl;
+        }
+        void FuncTwo(){
+            cout << "Value of b is: " << b << endl;
+        }
 
 };
 
