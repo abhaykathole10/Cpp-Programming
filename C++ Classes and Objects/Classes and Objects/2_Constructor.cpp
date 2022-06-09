@@ -5,11 +5,13 @@ class student{
     //Private members
     string name;
     int rollno;
+
     //Public members
     public:
-    //Constructor doesn't have return type
-    //Constructor has same name as class
-    student(string a, int b);
+
+        //Constructor doesn't have return type
+        //Constructor has same name as class
+        student(string a, int b);
 };
 
 student :: student(string n, int r){
