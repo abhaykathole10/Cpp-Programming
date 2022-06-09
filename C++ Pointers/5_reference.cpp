@@ -22,7 +22,7 @@ int main(){
 /*Differnce between Pointers and Reference
 1. Declaration
     Pointers  : int* ptr = &a;
-    Reference : &ref = a;
+    Reference : int &ref = a;
 2.Reassignment
     pointers: possible
         ptr = 15
