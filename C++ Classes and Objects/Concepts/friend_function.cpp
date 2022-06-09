@@ -5,14 +5,14 @@ class student{
     int roll;
     char name[10];
     public:
-    void getData(){
-        cout << "\nEnter roll: ";
-        cin >> roll;
-        cout << "Enter name: ";
-        cin >> name;
-    }
-    //friend function declaration
-    friend void display(student);
+        void getData(){
+            cout << "\nEnter roll: ";
+            cin >> roll;
+            cout << "Enter name: ";
+            cin >> name;
+        }
+        //friend function declaration
+        friend void display(student);
 };
 
 //friend function definition
