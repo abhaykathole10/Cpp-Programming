@@ -3,29 +3,32 @@
 #define PI 3.141592 //Macro definition/ Expansion
 using namespace std;
 
-// First tried method // Too much if else conditions // Not optimised //Not easy to interpret
-// void forCube(int r, char rch){
-//     if(rch == 'a'){
-//         cout << "The Curved Surface Area of Cube is " << 4*r*r;
-//     }else if(rch == 'b'){
-//         cout << "The Total Surface Area of Cube is " << 6*r*r;
-//     }else if(rch =='c'){
-//         cout << "The volume of cube is " << 6*r*r;
-//     }else{
-//         cout << "Invalid input";
-//     }
-// }
-// void forCuboid(int l, int b, int h, char cbch){
-//     if(cbch == 'a'){
-//         cout << "The Curved Surface Area of Cuboid is " << 2*h*(l+b);
-//     }else if(cbch == 'b'){
-//         cout << "The Total Surface Area of Cuboid is " << 2*(l*b + b*h + l*h);
-//     }else if(cbch =='c'){
-//         cout << "The volume of cuboid is " << l*b*h;
-//     }else{
-//         cout << "Invalid input";
-//     }
-// }
+/*
+Old method // Too much if else conditions // Not optimised //Not easy to interpret
+
+void forCube(int r, char rch){
+    if(rch == 'a'){
+        cout << "The Curved Surface Area of Cube is " << 4*r*r;
+    }else if(rch == 'b'){
+        cout << "The Total Surface Area of Cube is " << 6*r*r;
+    }else if(rch =='c'){
+        cout << "The volume of cube is " << 6*r*r;
+    }else{
+        cout << "Invalid input";
+    }
+}
+void forCuboid(int l, int b, int h, char cbch){
+    if(cbch == 'a'){
+        cout << "The Curved Surface Area of Cuboid is " << 2*h*(l+b);
+    }else if(cbch == 'b'){
+        cout << "The Total Surface Area of Cuboid is " << 2*(l*b + b*h + l*h);
+    }else if(cbch =='c'){
+        cout << "The volume of cuboid is " << l*b*h;
+    }else{
+        cout << "Invalid input";
+    }
+}
+*/
 
 // Cube
 void curvedSurfaceAreaOfCube(int a){
@@ -103,17 +106,19 @@ int main(){
 
                 //Cube
                 case 1:
-                    // First tried method // Too much if else conditions // Not optimised //Not easy to interpret
-                    // float a;
-                    // char ch;
-                    // cout << "Enter the side: ";
-                    // cin >> a;
-                    // cout << "a. Curved Surface Area \nb. Total Surface Area \nc. Volume\n";
-                    // cout << "Enter your choice: ";
-                    // cin >> ch;
-                    // cout << "\n";
-                    // forCube( a , ch);
-                    // cout << "\n\n";
+                    /*
+                    Old method // Too much if else conditions // Not optimised //Not easy to interpret
+                    float a;
+                    char ch;
+                    cout << "Enter the side: ";
+                    cin >> a;
+                    cout << "a. Curved Surface Area \nb. Total Surface Area \nc. Volume\n";
+                    cout << "Enter your choice: ";
+                    cin >> ch;
+                    cout << "\n";
+                    forCube( a , ch);
+                    cout << "\n\n";
+                    */
 
                     {
                         float a;
@@ -142,21 +147,23 @@ int main(){
 
                 //Cuboid
                 case 2:
-                    // First tried method // Too much if else conditions // Not optimised //Not easy to interpret
-                    // float l, b, h;
-                    // char cbch;
-                    // cout << "Enter length: ";
-                    // cin >> l;
-                    // cout << "Enter height: ";
-                    // cin >> h;
-                    // cout << "Enter breadth: ";
-                    // cin >> b;
-                    // cout << "a. Curved Surface Area \nb. Total Surface Area \nc. Volume\n";
-                    // cout << "Enter your choice: ";
-                    // cin >> cbch;
-                    // cout << "\n";
-                    // forCuboid( l , b , h , cbch);
-                    // cout << "\n\n";
+                    /*
+                    Old method // Too much if else conditions // Not optimised //Not easy to interpret
+                    float l, b, h;
+                    char cbch;
+                    cout << "Enter length: ";
+                    cin >> l;
+                    cout << "Enter height: ";
+                    cin >> h;
+                    cout << "Enter breadth: ";
+                    cin >> b;
+                    cout << "a. Curved Surface Area \nb. Total Surface Area \nc. Volume\n";
+                    cout << "Enter your choice: ";
+                    cin >> cbch;
+                    cout << "\n";
+                    forCuboid( l , b , h , cbch);
+                    cout << "\n\n";
+                    */
 
                     {
                         float l , b , h;
