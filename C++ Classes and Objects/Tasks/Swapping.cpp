@@ -1,3 +1,4 @@
+//Swap using friend function
 #include<iostream>
 using namespace std;
 
@@ -5,28 +6,28 @@ class two;
 class one{
     int data1;
     public:
-    //Setting the value of the private members of the class
-    void inData(int x){
-        data1 = x;
-    }
-    void display(){
-        cout << "\nData 1: " << data1;
-    }
-    //Decalring friend function
-    friend void swapFun(one &, two &);
+        //Setting the value of the private members of the class
+        void inData(int x){
+            data1 = x;
+        }
+        void display(){
+            cout << "\nData 1: " << data1;
+        }
+        //Decalring friend function
+        friend void swapFun(one &, two &);
 };
 class two{
     int data2;
     public:
-    //Setting the value of the private members of the class
-    void inData(int y){
-        data2 = y;
-    }
-    void display(){
-        cout << "\nData 2: " << data2;
-    }
-    //Decalring friend function
-    friend void swapFun(one &, two &);
+        //Setting the value of the private members of the class
+        void inData(int y){
+            data2 = y;
+        }
+        void display(){
+            cout << "\nData 2: " << data2;
+        }
+        //Decalring friend function
+        friend void swapFun(one &, two &);
 };
 
 //Defining friend function
