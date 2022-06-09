@@ -9,14 +9,14 @@ class Store{
     //Below methods are set to public
     //They have acccess to above private data members
     public:
-    void setData(int a, float b){
-        quantity = a;
-        price = b;
-    }
-    void getData(){
-        cout << "The quantity of the item is: " << quantity << endl;
-        cout << "The price of the item is: " << price << endl;
-    }
+        void setData(int a, float b){
+            quantity = a;
+            price = b;
+        }
+        void getData(){
+            cout << "The quantity of the item is: " << quantity << endl;
+            cout << "The price of the item is: " << price << endl;
+        }
 
 };
 
@@ -43,6 +43,7 @@ int main(){
         ptr -> setData(x,y);
         ptr++;
     }
+
     //In above loop the ptr points to next addr of the array at the end "ptr++"
     //In last iteration the ptr will point to outside array location
     //So when we use ptr in below loop it will be pointing to that outside loaction
