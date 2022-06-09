@@ -1,3 +1,4 @@
+//SWAPPING USING FRIEND FUNCTION
 #include<iostream>
 using namespace std;
 
@@ -5,32 +6,32 @@ class two;
 class one{
     int data1;
     public:
-    //Setting the value of the private members of the class
-    void inData(int x){
-        data1 = x;
-    }
-    void display(){
-        cout << "\nData 1: " << data1;
-    }
-    //Decalring friend function
-    friend void swapFun(one &, two &);
+        //Setting the value of the private members of the class
+        void inData(int x){
+            data1 = x;
+        }
+        void display(){
+            cout << "\nData 1: " << data1;
+        }
+        //Decalring friend function
+        friend void swapFun(one &, two &);
 };
 class two{
     int data2;
     public:
-    //Setting the value of the private members of the class
-    void inData(int y){
-        data2 = y;
-    }
-    void display(){
-        cout << "\nData 2: " << data2;
-    }
-    //Decalring friend function
-    friend void swapFun(one &, two &);
+        //Setting the value of the private members of the class
+        void inData(int y){
+            data2 = y;
+        }
+        void display(){
+            cout << "\nData 2: " << data2;
+        }
+        //Decalring friend function
+        friend void swapFun(one &, two &);
 };
 
 //Defining friend function
-//Taking address of the object with type "class" as an argument
+//Taking addresses of the objects with type class as an argument
 //We know call by reference int &x = a; i.e one &t = a;
 void swapFun(one & t, two & r){
     int temp = t.data1;
