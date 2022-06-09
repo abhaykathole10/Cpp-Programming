@@ -5,12 +5,12 @@ class myClass{
     int a;
     static int count;
     public:
-    void display(){
-        cout << count << endl;
-    }
-    void fun(){
-        count++;
-    }
+        void display(){
+            cout << count << endl;
+        }
+        void fun(){
+            count++;
+        }
 };
 
 //Type and Scope of Static variables need to declared outside class
@@ -31,6 +31,6 @@ int main(){
 }
 /*
 Same variable is shared among all the obj
-Even thiugh the function calls are independent, count is same for all
+Even though the function calls are independent, count is same for all
 So count gets incremented 3 times
 */
