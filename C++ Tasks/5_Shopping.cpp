@@ -23,6 +23,7 @@ void items :: getItem(){        //Defining member functions
     cin >> itemPrice[count];
     count ++;
 }
+
 void items ::  displaySum(){
     float sum = 0;
     for(int i = 0; i < count; i ++){
@@ -31,6 +32,7 @@ void items ::  displaySum(){
     cout << "Total Value of cart is " << sum;
     cout << "\n\n";
 }
+
 void items ::  removeItem(){
     int a;
     cout << "Enter item code: ";
@@ -42,6 +44,7 @@ void items ::  removeItem(){
     }
     cout << "Item " << a << " deleted successfully!\n";
 }
+
 void items ::  displayItems(){
     cout << "\nItem id\tPrice";
     for(int i = 0; i < count ; i++){
@@ -49,6 +52,7 @@ void items ::  displayItems(){
     }
     cout << "\n";
 }
+
 int main(){
     int ch;
     items order;    //Creating object(order) of class items
