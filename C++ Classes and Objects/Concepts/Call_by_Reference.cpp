@@ -31,12 +31,15 @@ int main(){
     int a = 10;
     int b = 20;
     cout << "\nSwapping using Call by reference";
+
+    //Before
     cout << "\na is " << a;
     cout << "\nb is " << b << endl;
 
     //Passing 'a' and 'b' as an argument
     swap(a , b);
 
+    //After
     cout << "\na is " << a;
     cout << "\nb is " << b << endl;
 }
